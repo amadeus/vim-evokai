@@ -156,7 +156,7 @@ hi jsonBooleanFalse      guifg=#ff221e   guibg=#761210   gui=NONE
 " Python Specifics
 hi pythonBooleanTrue     guifg=#3cff00   guibg=#155800   gui=NONE
 hi pythonBooleanFalse    guifg=#ff221e   guibg=#761210   gui=NONE
-" hi pythonBrackets        guifg=#8200a8   guibg=NONE      gui=NONE
+hi pythonExceptions      guifg=#ff221e   guibg=#761210   gui=NONE
 
 " CSS Specific
 hi cssClassName          guifg=#3cff00   guibg=NONE      gui=NONE
