@@ -117,13 +117,16 @@ hi djangoVarBlock        guifg=#c500ff   guibg=NONE      gui=NONE
 hi djangoFilter          guifg=#c500ff   guibg=NONE      gui=NONE
 
 " Javascript Specific
-hi jsFuncCall            guifg=#cefdff   guibg=#000000   gui=NONE
+hi jsFuncCall            guifg=#cefdff
 hi jsUndefined           guifg=#c500ff   guibg=NONE      gui=NONE
 hi jsNull                guifg=#c500ff   guibg=NONE      gui=NONE
 hi jsFunction            guifg=#00d5dd   guibg=NONE      gui=NONE
+hi jsClassMethodDefinitions guifg=#00d5dd   guibg=NONE      gui=NONE
+hi jsArrowFunction       guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsFuncName            guifg=#00d5dd   guibg=NONE      gui=BOLD
 hi jsFuncParens          guifg=#00d5dd   guibg=NONE      gui=BOLD
 hi jsFuncBraces          guifg=#00d5dd   guibg=NONE      gui=NONE
+hi jsClassBraces         guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsFuncArgCommas       guifg=#397d80   guibg=NONE      gui=NONE
 hi jsFuncArgs            guifg=#ff4b00   guibg=NONE      gui=italic
 hi jsGlobalObjects       guifg=#00d5dd   guibg=NONE      gui=NONE
@@ -137,6 +140,12 @@ hi jsFunctionKey         guifg=#3cff00   guibg=#000000   gui=NONE
 hi jsFunctionVar         guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsBooleanTrue         guifg=#3cff00   guibg=#155800   gui=NONE
 hi jsBooleanFalse        guifg=#ff221e   guibg=#761210   gui=NONE
+hi jsClassKeywords       guifg=#ff4b00   guibg=NONE      gui=NONE
+hi xmlEqual              guifg=#8200a8   guibg=NONE      gui=NONE
+hi jsTemplateVar         guifg=#c500ff   guibg=#330f00   gui=NONE
+hi jsTemplateBraces      guifg=#ff4a00   guibg=#330f00   gui=NONE
+hi jsGenerator           guifg=#8200a8   guibg=NONE      gui=NONE
+hi jsClassDefinition     guifg=#00d5dd   guibg=NONE      gui=BOLD
 
 " JSON Specific
 hi jsonBraces            guifg=#8200a8   guibg=NONE      gui=NONE
