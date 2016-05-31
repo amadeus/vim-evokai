@@ -211,18 +211,18 @@ hi todotxtPriC           guifg=#9d0000   guibg=NONE      gui=NONE
 hi todotxtPriD           guifg=#6f0000   guibg=NONE      gui=NONE
 
 " GitGutter Plugin
-hi GitGutterAdd          guifg=#3cff00   guibg=#0e0e0a   gui=NONE
-hi GitGutterChange       guifg=#fff200   guibg=#0e0e0a   gui=NONE
-hi GitGutterDelete       guifg=#e60000   guibg=#0e0e0a   gui=NONE
-hi GitGutterChangeDelete guifg=#fff600   guibg=#0e0e0a   gui=NONE
+hi GitGutterAdd          guifg=#3cff00   guibg=#121212   gui=NONE
+hi GitGutterChange       guifg=#fff200   guibg=#121212   gui=NONE
+hi GitGutterDelete       guifg=#e60000   guibg=#121212   gui=NONE
+hi GitGutterChangeDelete guifg=#fff600   guibg=#121212   gui=NONE
 
 hi SignifySignAdd        guifg=#3cff00   guibg=#121212   gui=NONE
 hi SignifySignChange     guifg=#fff200   guibg=#121212   gui=NONE
 hi SignifySignDelete     guifg=#e60000   guibg=#121212   gui=NONE
 
 " Syntastic Plugin
-hi SyntasticErrorSign    guifg=#e60000   guibg=#0e0e0a   gui=bold
-hi SyntasticWarningSign  guifg=#fff600   guibg=#0e0e0a   gui=bold
+hi SyntasticErrorSign    guifg=#e60000   guibg=#121212   gui=bold
+hi SyntasticWarningSign  guifg=#fff600   guibg=#121212   gui=bold
 
 " CtrlP Plugin
 hi CtrlPLinePre          guifg=#1e1e1a   guibg=NONE      gui=NONE
