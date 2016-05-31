@@ -50,10 +50,10 @@ hi Typedef               guifg=#3cff00   guibg=NONE      gui=NONE
 
 hi Special               guifg=#ff4b00   guibg=NONE      gui=NONE
 hi SpecialChar           guifg=#ff4b00   guibg=#330f00   gui=NONE
-hi Tag                   guifg=#d7d7d7   guibg=#e60000   gui=NONE
+hi Tag                   guifg=#36a6ff   guibg=#003e65   gui=NONE
 hi Delimiter             guifg=#ff027f   guibg=NONE      gui=NONE
-hi SpecialComment        guifg=#d7d7d7   guibg=#e60000   gui=NONE
-hi Debug                 guifg=#d7d7d7   guibg=#e60000   gui=NONE
+hi SpecialComment        guifg=#ff4b00   guibg=#330f00   gui=NONE
+hi Debug                 guifg=#ff4b00   guibg=NONE      gui=NONE
 
 hi Underlined            guifg=NONE      guibg=NONE      gui=Underline
 hi Ignore                guifg=NONE      guibg=NONE      gui=NONE
@@ -170,21 +170,34 @@ hi pythonExceptions      guifg=#ff221e   guibg=#761210   gui=NONE
 " CSS Specific
 hi cssClassName          guifg=#3cff00   guibg=NONE      gui=NONE
 hi cssClassNameDot       guifg=#8200a8   guibg=NONE      gui=NONE
+hi cssClassSelector      guifg=#3cff00   guibg=NONE      gui=NONE
+hi cssClassSelectorDot   guifg=#ff027f   guibg=NONE      gui=NONE
+hi cssIDSelectorHash     guifg=#ff027f   guibg=NONE      gui=NONE
+
 hi sassClassChar         guifg=#8200a8   guibg=NONE      gui=NONE
 hi cssSpecialCharQ       guifg=#ff4b00   guibg=#330f00   gui=NONE
 hi cssUnicodeEscape      guifg=#ff4b00   guibg=#330f00   gui=NONE
 hi cssProp               guifg=#66d9ef   guibg=NONE      gui=NONE
+
 hi cssTagName            guifg=#36a6ff   guibg=#003e65   gui=NONE
+hi cssTagSelector        guifg=#36a6ff   guibg=#003e65   gui=NONE
+
 hi cssUnitDecorators     guifg=#ff027f   guibg=NONE      gui=NONE
 hi cssBraces             guifg=#8200a8   guibg=NONE      gui=NONE
 hi cssMediaFeature       guifg=#8200a8   guibg=NONE      gui=NONE
 hi cssURL                guifg=#ff4b00   guibg=NONE      gui=italic
 hi cssMedia              guifg=#e60000   guibg=NONE      gui=NONE
+
 hi cssPseudoClass        guifg=#ff027f   guibg=#000000   gui=NONE
 hi cssPseudoClassId      guifg=#3cff00   guibg=#000000   gui=NONE
+hi cssPseudoKeyword      guifg=#3cff00   guibg=#000000   gui=NONE
+hi cssNumberNoise        guifg=#ff027f   guibg=NONE      gui=NONE
+
+
 hi cssFunction           guifg=#66d9ef   guibg=NONE      gui=NONE
-hi cssFunctionName       guifg=#66d9ef   guibg=#173233   gui=NONE
 hi cssFunctionName       guifg=#cefdff   guibg=#000000   gui=NONE
+hi cssFunctionDelimiters guifg=#cefdff   guibg=#000000   gui=NONE
+
 hi cssFunctionComma      guifg=#397d80   guibg=NONE      gui=NONE
 hi cssMediaComma         guifg=#ff4b00   guibg=NONE      gui=NONE
 hi cssInclude            guifg=#8200a8   guibg=NONE      gui=NONE
@@ -262,3 +275,6 @@ hi shQuote     guifg=#ff027f   guibg=#333100   gui=NONE
 " NERDTree
 hi NERDTreeClosable guifg=#36a6ff   guibg=NONE      gui=NONE
 hi NERDTreeOpenable guifg=#36a6ff   guibg=NONE      gui=NONE
+
+" Markdown
+hi markdownCode     guifg=#fff600   guibg=#333100   gui=NONE
