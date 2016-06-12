@@ -147,6 +147,13 @@ hi jsTemplateBraces      guifg=#ff4a00   guibg=#330f00   gui=NONE
 hi jsGenerator           guifg=#8200a8   guibg=NONE      gui=NONE
 hi jsClassDefinition     guifg=#00d5dd   guibg=NONE      gui=BOLD
 
+" Flow Specific Stuff
+hi jsFlowType            guifg=#30cc01   guibg=#000000   gui=NONE
+hi jsFlowNoise           guifg=#8200a8   guibg=#000000   gui=NONE
+hi jsFlowStorageClass    guifg=#ff4b00   guibg=#000000   gui=NONE
+hi jsFlowDeclareKeyword  guifg=#3cff00   guibg=#000000   gui=NONE
+
+
 " JSON Specific
 hi jsonBraces            guifg=#8200a8   guibg=NONE      gui=NONE
 hi jsonKeywordMatch      guifg=#8200a8   guibg=NONE      gui=NONE
