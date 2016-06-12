@@ -105,9 +105,12 @@ hi TabLineSel            guifg=#ffffff   guibg=#000000   gui=BOLD
 
 " HTML Specific
 hi htmlTag               guifg=#ff027f   guibg=NONE      gui=NONE
+hi xmlTag                guifg=#ff027f   guibg=NONE      gui=NONE
 hi htmlEndTag            guifg=#ff027f   guibg=NONE      gui=NONE
+hi xmlEndTag             guifg=#ff027f   guibg=NONE      gui=NONE
 hi htmlSpecialTagName    guifg=#36a6ff   guibg=#003e65   gui=NONE
 hi htmlTagName           guifg=#36a6ff   guibg=#003e65   gui=NONE
+hi xmlTagName            guifg=#36a6ff   guibg=#003e65   gui=NONE
 hi htmlArg               guifg=#3cff00   guibg=NONE      gui=NONE
 hi htmlSpecialChar       guifg=#bb40f5   guibg=NONE      gui=NONE
 hi djangoVarBrackets     guifg=#8200a8   guibg=NONE      gui=NONE
@@ -115,6 +118,7 @@ hi djangoTagBrackets     guifg=#8200a8   guibg=NONE      gui=NONE
 hi djangoTagBlock        guifg=#c500ff   guibg=NONE      gui=NONE
 hi djangoVarBlock        guifg=#c500ff   guibg=NONE      gui=NONE
 hi djangoFilter          guifg=#c500ff   guibg=NONE      gui=NONE
+hi xmlAttribPunct         guifg=#ff027f   guibg=NONE      gui=NONE
 
 " Javascript Specific
 hi jsFuncCall            guifg=#cefdff
