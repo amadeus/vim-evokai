@@ -150,6 +150,11 @@ hi jsTemplateVar         guifg=#c500ff   guibg=#330f00   gui=NONE
 hi jsTemplateBraces      guifg=#ff4a00   guibg=#330f00   gui=NONE
 hi jsGenerator           guifg=#8200a8   guibg=NONE      gui=NONE
 hi jsClassDefinition     guifg=#00d5dd   guibg=NONE      gui=BOLD
+hi jsDestructuringBlock  guifg=#ff4b00   guibg=NONE      gui=italic
+hi jsDestructuringBraces guifg=#ff4b00   guibg=NONE      gui=NONE
+
+hi jsDestructuringProperty      guifg=#ff4b00 guibg=NONE gui=italic
+hi jsDestructuringPropertyValue guifg=#ff4b00 guibg=NONE gui=italic
 
 " Flow Specific Stuff
 hi jsFlowType            guifg=#30cc01   guibg=#000000   gui=NONE
