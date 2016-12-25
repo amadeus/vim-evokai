@@ -19,7 +19,7 @@ hi Normal                guifg=#efefef   guibg=#1b1b13   gui=NONE
 hi Title                 guifg=#ffffff   guibg=NONE      gui=NONE
 
 hi Comment               guifg=#75715e   guibg=NONE      gui=NONE
-hi Constant              guifg=#c500ff   guibg=NONE      gui=NONE
+hi Constant              guifg=#99f6fa   guibg=NONE      gui=NONE
 hi String                guifg=#fff600   guibg=#333100   gui=NONE
 hi Character             guifg=#c500ff   guibg=NONE      gui=NONE
 hi Number                guifg=#c500ff   guibg=NONE      gui=NONE
@@ -37,7 +37,7 @@ hi Keyword               guifg=#ff027f   guibg=NONE      gui=NONE
 hi Exception             guifg=#e60000   guibg=NONE      gui=NONE
 
 " hi PreProc               guifg=#3cff00   guibg=NONE      gui=NONE
-hi PreProc               guifg=#75715e   guibg=#000000   gui=NONE
+hi PreProc               guifg=#75715e   guibg=NONE   gui=NONE
 hi Include               guifg=#75715e   guibg=#000000   gui=NONE
 hi Define                guifg=#75715e   guibg=#000000   gui=NONE
 hi Macro                 guifg=#75715e   guibg=#000000   gui=NONE
@@ -66,7 +66,8 @@ hi Noise                 guifg=#8200a8   guibg=NONE       gui=NONE
 
 " Vim UI Stuff
 hi Cursor                guifg=#000000   guibg=#ff027f   gui=NONE
-hi NonText               guifg=#1b1b13   guibg=NONE      gui=NONE
+hi NonText               guifg=#000000   guibg=NONE      gui=NONE
+hi EndOfBuffer           guifg=#1b1b13
 hi LineNr                guifg=#666666   guibg=#121212   gui=NONE
 hi SignColumn            guifg=#666666   guibg=#121212   gui=NONE
 hi Visual                guifg=#1b1b13   guibg=#efefef   gui=NONE
@@ -82,7 +83,7 @@ hi StatusLineNC          guifg=#444444   guibg=#1b1b13   gui=NONE
 hi CursorLine            guifg=NONE      guibg=NONE      gui=NONE
 hi CursorLineNr          guifg=#ff027f   guibg=#121212   gui=BOLD
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
-hi MatchParen            guifg=NONE      guibg=NONE      gui=inverse
+hi MatchParen            guifg=#000000   guibg=#8200a8   gui=NONE
 hi Search                guifg=#000000   guibg=#fff600   gui=NONE
 hi IncSearch             guifg=#000000   guibg=#ff027f   gui=NONE
 
@@ -125,9 +126,10 @@ hi jsFuncCall            guifg=#cefdff
 hi jsUndefined           guifg=#c500ff   guibg=NONE      gui=NONE
 hi jsNull                guifg=#c500ff   guibg=NONE      gui=NONE
 hi jsFunction            guifg=#00d5dd   guibg=NONE      gui=NONE
-hi jsClassMethodDefinitions guifg=#00d5dd   guibg=NONE      gui=NONE
+hi jsClassMethodType     guifg=#00d5dd   guibg=NONE      gui=italic
 hi jsArrowFunction       guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsFuncName            guifg=#00d5dd   guibg=NONE      gui=BOLD
+hi jsObjectFuncName      guifg=#00d5dd   guibg=NONE      gui=BOLD
 hi jsFuncParens          guifg=#00d5dd   guibg=NONE      gui=BOLD
 hi jsFuncBraces          guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsClassBraces         guifg=#00d5dd   guibg=NONE      gui=NONE
@@ -144,7 +146,8 @@ hi jsFunctionKey         guifg=#3cff00   guibg=#000000   gui=NONE
 hi jsFunctionVar         guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsBooleanTrue         guifg=#3cff00   guibg=#155800   gui=NONE
 hi jsBooleanFalse        guifg=#ff221e   guibg=#761210   gui=NONE
-hi jsClassKeywords       guifg=#ff4b00   guibg=NONE      gui=NONE
+hi jsClassKeyword        guifg=#ff4b00   guibg=NONE      gui=NONE
+hi jsExtendsKeyword      guifg=#ff4b00   guibg=NONE      gui=NONE
 hi xmlEqual              guifg=#8200a8   guibg=NONE      gui=NONE
 hi jsTemplateVar         guifg=#c500ff   guibg=#330f00   gui=NONE
 hi jsTemplateBraces      guifg=#ff4a00   guibg=#330f00   gui=NONE
@@ -157,10 +160,10 @@ hi jsDestructuringProperty      guifg=#ff4b00 guibg=NONE gui=italic
 hi jsDestructuringPropertyValue guifg=#ff4b00 guibg=NONE gui=italic
 
 " Flow Specific Stuff
-hi jsFlowType            guifg=#30cc01   guibg=#000000   gui=NONE
-hi jsFlowNoise           guifg=#8200a8   guibg=#000000   gui=NONE
-hi jsFlowStorageClass    guifg=#ff4b00   guibg=#000000   gui=NONE
-hi jsFlowDeclareKeyword  guifg=#3cff00   guibg=#000000   gui=NONE
+hi jsFlowType            guifg=#448231   guibg=NONE   gui=NONE
+hi jsFlowNoise           guifg=#8200a8   guibg=NONE   gui=NONE
+hi jsFlowStorageClass    guifg=#ff4b00   guibg=NONE   gui=NONE
+hi jsFlowDeclareKeyword  guifg=#3cff00   guibg=NONE   gui=NONE
 
 
 " JSON Specific
@@ -212,7 +215,7 @@ hi cssNumberNoise        guifg=#ff027f   guibg=NONE      gui=NONE
 
 hi cssFunction           guifg=#66d9ef   guibg=NONE      gui=NONE
 hi cssFunctionName       guifg=#cefdff   guibg=#000000   gui=NONE
-hi cssFunctionDelimiters guifg=#cefdff   guibg=#000000   gui=NONE
+hi cssFunctionDelimiters guifg=#cefdff   guibg=NONE      gui=NONE
 
 hi cssFunctionComma      guifg=#397d80   guibg=NONE      gui=NONE
 hi cssMediaComma         guifg=#ff4b00   guibg=NONE      gui=NONE
@@ -244,6 +247,10 @@ hi GitGutterAdd          guifg=#3cff00   guibg=#121212   gui=NONE
 hi GitGutterChange       guifg=#fff200   guibg=#121212   gui=NONE
 hi GitGutterDelete       guifg=#e60000   guibg=#121212   gui=NONE
 hi GitGutterChangeDelete guifg=#fff600   guibg=#121212   gui=NONE
+
+" ALE Signs
+hi ALEErrorSign          guifg=#e60000   guibg=#121212   gui=BOLD
+hi ALEWarningSign        guifg=#fff600   guibg=#121212   gui=BOLD
 
 hi SignifySignAdd        guifg=#3cff00   guibg=#121212   gui=NONE
 hi SignifySignChange     guifg=#fff200   guibg=#121212   gui=NONE
