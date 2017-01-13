@@ -6,7 +6,7 @@ highlight clear
 set background=dark
 
 if exists("syntax_on")
-    syntax reset
+  syntax reset
 endif
 
 let g:colors_name = "evokai"
@@ -38,10 +38,10 @@ hi Exception             guifg=#e60000   guibg=NONE      gui=NONE
 
 " hi PreProc               guifg=#3cff00   guibg=NONE      gui=NONE
 hi PreProc               guifg=#75715e   guibg=NONE   gui=NONE
-hi Include               guifg=#75715e   guibg=#000000   gui=NONE
-hi Define                guifg=#75715e   guibg=#000000   gui=NONE
-hi Macro                 guifg=#75715e   guibg=#000000   gui=NONE
-hi PreCondit             guifg=#75715e   guibg=#000000   gui=NONE
+hi Include               guifg=#75715e   guibg=NONE   gui=NONE
+hi Define                guifg=#75715e   guibg=NONE   gui=NONE
+hi Macro                 guifg=#75715e   guibg=NONE   gui=NONE
+hi PreCondit             guifg=#75715e   guibg=NONE   gui=NONE
 
 hi Type                  guifg=#3cff00   guibg=NONE      gui=NONE
 hi StorageClass          guifg=#ff4b00   guibg=NONE      gui=NONE
@@ -61,15 +61,15 @@ hi Error                 guifg=#d7d7d7   guibg=#e60000   gui=NONE
 hi Todo                  guifg=#000000   guibg=#75715e   gui=NONE
 
 " hi ColorColumn           guifg=#ff0000   guibg=#121212    gui=NONE
-hi ColorColumn           guifg=#ff0000   guibg=#121212    gui=inverse
+hi ColorColumn           guifg=#ff0000   guibg=#1b1b13    gui=inverse
 hi Noise                 guifg=#8200a8   guibg=NONE       gui=NONE
 
 " Vim UI Stuff
 hi Cursor                guifg=#000000   guibg=#ff027f   gui=NONE
 hi NonText               guifg=#000000   guibg=NONE      gui=NONE
 hi EndOfBuffer           guifg=#1b1b13
-hi LineNr                guifg=#666666   guibg=#121212   gui=NONE
-hi SignColumn            guifg=#666666   guibg=#121212   gui=NONE
+hi LineNr                guifg=#444444   guibg=#1b1b13   gui=NONE
+hi SignColumn            guifg=#444444   guibg=#1b1b13   gui=NONE
 hi Visual                guifg=#1b1b13   guibg=#efefef   gui=NONE
 hi VisualNOS             guifg=#ffffff   guibg=#ff0000   gui=NONE
 hi VertSplit             guifg=#333333   guibg=#000000   gui=NONE
@@ -81,11 +81,13 @@ hi SpecialKey            guifg=#444444   guibg=NONE      gui=NONE
 hi StatusLine            guifg=NONE      guibg=#2a2a1c   gui=bold
 hi StatusLineNC          guifg=#444444   guibg=#1b1b13   gui=NONE
 hi CursorLine            guifg=NONE      guibg=NONE      gui=NONE
-hi CursorLineNr          guifg=#ff027f   guibg=#121212   gui=BOLD
+hi CursorLineNr          guifg=#ff027f   guibg=#1b1b13   gui=BOLD
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
 hi MatchParen            guifg=#000000   guibg=#8200a8   gui=NONE
-hi Search                guifg=#000000   guibg=#fff600   gui=NONE
-hi IncSearch             guifg=#000000   guibg=#ff027f   gui=NONE
+" hi Search                guifg=#000000   guibg=#fff600   gui=NONE
+hi Search                guifg=#FC167C   guibg=#481a28   gui=NONE
+hi IncSearch                guifg=#FC167C   guibg=#481a28   gui=INVERSE
+" hi IncSearch             guifg=#000000   guibg=#ff027f   gui=NONE
 
 hi Directory             guifg=#36a6ff   guibg=NONE      gui=NONE
 hi Folded                guifg=#75715e   guibg=#121212   gui=NONE
@@ -139,10 +141,10 @@ hi jsGlobalObjects       guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsOpAssign            guifg=#ff027f   guibg=NONE      gui=NONE
 hi jsSpecial             guifg=#ff4b00   guibg=#330f00   gui=NONE
 hi jsParens              guifg=#ff027f   guibg=NONE      gui=NONE
-hi jsBraces              guifg=#8200a8   guibg=NONE      gui=NONE
+hi jsBraces              guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsBrackets            guifg=#8200a8   guibg=NONE      gui=NONE
 hi jsObjectKey           guifg=#3cff00   guibg=NONE      gui=NONE
-hi jsFunctionKey         guifg=#3cff00   guibg=#000000   gui=NONE
+hi jsFunctionKey         guifg=#3cff00   guibg=NONE      gui=NONE
 hi jsFunctionVar         guifg=#00d5dd   guibg=NONE      gui=NONE
 hi jsBooleanTrue         guifg=#3cff00   guibg=#155800   gui=NONE
 hi jsBooleanFalse        guifg=#ff221e   guibg=#761210   gui=NONE
@@ -154,7 +156,7 @@ hi jsTemplateBraces      guifg=#ff4a00   guibg=#330f00   gui=NONE
 hi jsGenerator           guifg=#8200a8   guibg=NONE      gui=NONE
 hi jsClassDefinition     guifg=#00d5dd   guibg=NONE      gui=BOLD
 hi jsDestructuringBlock  guifg=#ff4b00   guibg=NONE      gui=italic
-hi jsDestructuringBraces guifg=#5d2c00   guibg=NONE      gui=NONE
+hi jsDestructuringBraces guifg=#9c5800   guibg=NONE      gui=NONE
 
 hi jsDestructuringProperty      guifg=#ff4b00 guibg=NONE gui=italic
 hi jsDestructuringPropertyValue guifg=#ff4b00 guibg=NONE gui=italic
@@ -243,22 +245,22 @@ hi todotxtPriC           guifg=#9d0000   guibg=NONE      gui=NONE
 hi todotxtPriD           guifg=#6f0000   guibg=NONE      gui=NONE
 
 " GitGutter Plugin
-hi GitGutterAdd          guifg=#3cff00   guibg=#121212   gui=NONE
-hi GitGutterChange       guifg=#fff200   guibg=#121212   gui=NONE
-hi GitGutterDelete       guifg=#e60000   guibg=#121212   gui=NONE
-hi GitGutterChangeDelete guifg=#fff600   guibg=#121212   gui=NONE
+hi GitGutterAdd          guifg=#3cff00   guibg=#1b1b13   gui=NONE
+hi GitGutterChange       guifg=#fff200   guibg=#1b1b13   gui=NONE
+hi GitGutterDelete       guifg=#e60000   guibg=#1b1b13   gui=NONE
+hi GitGutterChangeDelete guifg=#fff600   guibg=#1b1b13   gui=NONE
 
 " ALE Signs
-hi ALEErrorSign          guifg=#e60000   guibg=#121212   gui=BOLD
-hi ALEWarningSign        guifg=#fff600   guibg=#121212   gui=BOLD
+hi ALEErrorSign          guifg=#e60000   guibg=#1b1b13   gui=BOLD
+hi ALEWarningSign        guifg=#fff600   guibg=#1b1b13   gui=BOLD
 
-hi SignifySignAdd        guifg=#3cff00   guibg=#121212   gui=NONE
-hi SignifySignChange     guifg=#fff200   guibg=#121212   gui=NONE
-hi SignifySignDelete     guifg=#e60000   guibg=#121212   gui=NONE
+hi SignifySignAdd        guifg=#3cff00   guibg=#1b1b13   gui=NONE
+hi SignifySignChange     guifg=#fff200   guibg=#1b1b13   gui=NONE
+hi SignifySignDelete     guifg=#e60000   guibg=#1b1b13   gui=NONE
 
 " Syntastic Plugin
-hi SyntasticErrorSign    guifg=#e60000   guibg=#121212   gui=bold
-hi SyntasticWarningSign  guifg=#fff600   guibg=#121212   gui=bold
+hi SyntasticErrorSign    guifg=#e60000   guibg=#1b1b13   gui=bold
+hi SyntasticWarningSign  guifg=#fff600   guibg=#1b1b13   gui=bold
 
 " CtrlP Plugin
 hi CtrlPLinePre          guifg=#1e1e1a   guibg=NONE      gui=NONE
@@ -290,7 +292,7 @@ hi SpellRare   guisp=#FFFFFF gui=undercurl
 
 " Overlength?
 hi OverLength  guifg=#ff0000
-hi CtrlPMark   guifg=#fff600   guibg=#121212
+hi CtrlPMark   guifg=#fff600   guibg=#1b1b13
 
 " Bash Stuff
 hi shQuote     guifg=#ff027f   guibg=#333100   gui=NONE
