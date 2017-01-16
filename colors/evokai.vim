@@ -151,7 +151,6 @@ hi jsBooleanFalse        guifg=#ff221e   guibg=#761210   gui=NONE
 hi jsClassKeyword        guifg=#ff4b00   guibg=NONE      gui=NONE
 hi jsExtendsKeyword      guifg=#ff4b00   guibg=NONE      gui=NONE
 hi xmlEqual              guifg=#8200a8   guibg=NONE      gui=NONE
-hi jsTemplateVar         guifg=#c500ff   guibg=#330f00   gui=NONE
 hi jsTemplateBraces      guifg=#ff4a00   guibg=#330f00   gui=NONE
 hi jsGenerator           guifg=#8200a8   guibg=NONE      gui=NONE
 hi jsClassDefinition     guifg=#00d5dd   guibg=NONE      gui=BOLD
