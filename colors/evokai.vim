@@ -302,3 +302,6 @@ hi NERDTreeOpenable guifg=#36a6ff   guibg=NONE      gui=NONE
 
 " Markdown
 hi markdownCode     guifg=#fff600   guibg=#333100   gui=NONE
+
+" LocalIndentGuide
+hi LocalIndentGuide guifg=#333333   guibg=NONE      gui=inverse
