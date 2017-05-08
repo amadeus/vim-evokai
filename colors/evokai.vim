@@ -72,14 +72,14 @@ hi LineNr                guifg=#444444   guibg=#1b1b13   gui=NONE
 hi SignColumn            guifg=#444444   guibg=#1b1b13   gui=NONE
 hi Visual                guifg=#1b1b13   guibg=#efefef   gui=NONE
 hi VisualNOS             guifg=#ffffff   guibg=#ff0000   gui=NONE
-hi VertSplit             guifg=#000000   guibg=#1b1b13   gui=NONE
+hi VertSplit             guifg=#444444   guibg=#1b1b13   gui=NONE
 hi Pmenu                 guifg=#999999   guibg=#121212   gui=NONE
 hi PmenuSel              guifg=#000000   guibg=#72faff   gui=NONE
 hi PmenuSbar             guifg=NONE      guibg=NONE      gui=NONE
 hi PmenuThumb            guifg=#ff0000
 hi SpecialKey            guifg=#444444   guibg=NONE      gui=NONE
-hi StatusLine            guifg=NONE      guibg=#2a2a1c   gui=bold
-hi StatusLineNC          guifg=#444444   guibg=#1b1b13   gui=NONE
+hi StatusLine            guifg=NONE      guibg=#222222   gui=bold
+hi StatusLineNC          guifg=#444444   guibg=#222222   gui=NONE
 hi CursorLine            guifg=NONE      guibg=NONE      gui=NONE
 hi CursorLineNr          guifg=#ff027f   guibg=#1b1b13   gui=BOLD
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
