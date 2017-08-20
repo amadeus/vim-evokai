@@ -19,6 +19,7 @@ hi Normal                guifg=#efefef   guibg=#1b1b13   gui=NONE
 hi Title                 guifg=#ffffff   guibg=NONE      gui=NONE
 
 hi Comment               guifg=#75715e   guibg=NONE      gui=NONE
+hi Conceal               guifg=#75715e   guibg=NONE      gui=NONE
 hi Constant              guifg=#99f6fa   guibg=NONE      gui=NONE
 hi String                guifg=#fff600   guibg=#333100   gui=NONE
 hi Character             guifg=#c500ff   guibg=NONE      gui=NONE
@@ -61,18 +62,18 @@ hi Error                 guifg=#d7d7d7   guibg=#e60000   gui=NONE
 hi Todo                  guifg=#000000   guibg=#75715e   gui=NONE
 
 " hi ColorColumn           guifg=#ff0000   guibg=#121212    gui=NONE
-hi ColorColumn           guifg=#ff0000   guibg=#1b1b13    gui=inverse
+hi ColorColumn           guifg=#ff0000   guibg=NONE    gui=inverse
 hi Noise                 guifg=#8200a8   guibg=NONE       gui=NONE
 
 " Vim UI Stuff
 hi Cursor                guifg=#000000   guibg=#ff027f   gui=NONE
 hi NonText               guifg=#000000   guibg=NONE      gui=NONE
 hi EndOfBuffer           guifg=#1b1b13
-hi LineNr                guifg=#444444   guibg=#1b1b13   gui=NONE
-hi SignColumn            guifg=#444444   guibg=#1b1b13   gui=NONE
+hi LineNr                guifg=#444444   guibg=NONE      gui=NONE
+hi SignColumn            guifg=#444444   guibg=NONE      gui=NONE
 hi Visual                guifg=#1b1b13   guibg=#efefef   gui=NONE
 hi VisualNOS             guifg=#ffffff   guibg=#ff0000   gui=NONE
-hi VertSplit             guifg=#444444   guibg=#1b1b13   gui=NONE
+hi VertSplit             guifg=#444444   guibg=NONE      gui=NONE
 hi Pmenu                 guifg=#999999   guibg=#121212   gui=NONE
 hi PmenuSel              guifg=#000000   guibg=#72faff   gui=NONE
 hi PmenuSbar             guifg=NONE      guibg=NONE      gui=NONE
@@ -81,13 +82,12 @@ hi SpecialKey            guifg=#444444   guibg=NONE      gui=NONE
 hi StatusLine            guifg=NONE      guibg=#222222   gui=bold
 hi StatusLineNC          guifg=#444444   guibg=#222222   gui=NONE
 hi CursorLine            guifg=NONE      guibg=NONE      gui=NONE
-hi CursorLineNr          guifg=#ff027f   guibg=#1b1b13   gui=BOLD
+hi CursorLineNr          guifg=#ff027f   guibg=NONE      gui=BOLD
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
 hi MatchParen            guifg=#000000   guibg=#8200a8   gui=NONE
-" hi Search                guifg=#000000   guibg=#fff600   gui=NONE
 hi Search                guifg=#FC167C   guibg=#481a28   gui=NONE
-hi IncSearch                guifg=#FC167C   guibg=#481a28   gui=INVERSE
-" hi IncSearch             guifg=#000000   guibg=#ff027f   gui=NONE
+hi QuickFixLine                guifg=#FC167C   guibg=#481a28   gui=NONE
+hi IncSearch             guifg=#FC167C   guibg=#481a28   gui=INVERSE
 
 hi Directory             guifg=#36a6ff   guibg=NONE      gui=NONE
 hi Folded                guifg=#75715e   guibg=#121212   gui=NONE
@@ -246,22 +246,22 @@ hi todotxtPriC           guifg=#9d0000   guibg=NONE      gui=NONE
 hi todotxtPriD           guifg=#6f0000   guibg=NONE      gui=NONE
 
 " GitGutter Plugin
-hi GitGutterAdd          guifg=#3cff00   guibg=#1b1b13   gui=NONE
-hi GitGutterChange       guifg=#fff200   guibg=#1b1b13   gui=NONE
-hi GitGutterDelete       guifg=#e60000   guibg=#1b1b13   gui=NONE
-hi GitGutterChangeDelete guifg=#fff600   guibg=#1b1b13   gui=NONE
+hi GitGutterAdd          guifg=#3cff00   guibg=NONE      gui=NONE
+hi GitGutterChange       guifg=#fff200   guibg=NONE      gui=NONE
+hi GitGutterDelete       guifg=#e60000   guibg=NONE      gui=NONE
+hi GitGutterChangeDelete guifg=#fff600   guibg=NONE      gui=NONE
 
 " ALE Signs
-hi ALEErrorSign          guifg=#e60000   guibg=#1b1b13   gui=BOLD
-hi ALEWarningSign        guifg=#fff600   guibg=#1b1b13   gui=BOLD
+hi ALEErrorSign          guifg=#e60000   guibg=NONE      gui=BOLD
+hi ALEWarningSign        guifg=#fff600   guibg=NONE      gui=BOLD
 
-hi SignifySignAdd        guifg=#3cff00   guibg=#1b1b13   gui=NONE
-hi SignifySignChange     guifg=#fff200   guibg=#1b1b13   gui=NONE
-hi SignifySignDelete     guifg=#e60000   guibg=#1b1b13   gui=NONE
+hi SignifySignAdd        guifg=#3cff00   guibg=NONE      gui=NONE
+hi SignifySignChange     guifg=#fff200   guibg=NONE      gui=NONE
+hi SignifySignDelete     guifg=#e60000   guibg=NONE      gui=NONE
 
 " Syntastic Plugin
-hi SyntasticErrorSign    guifg=#e60000   guibg=#1b1b13   gui=bold
-hi SyntasticWarningSign  guifg=#fff600   guibg=#1b1b13   gui=bold
+hi SyntasticErrorSign    guifg=#e60000   guibg=NONE      gui=bold
+hi SyntasticWarningSign  guifg=#fff600   guibg=NONE      gui=bold
 
 " CtrlP Plugin
 hi CtrlPLinePre          guifg=#1e1e1a   guibg=NONE      gui=NONE
@@ -293,7 +293,7 @@ hi SpellRare   guisp=#FFFFFF gui=undercurl
 
 " Overlength?
 hi OverLength  guifg=#ff0000
-hi CtrlPMark   guifg=#fff600   guibg=#1b1b13
+hi CtrlPMark   guifg=#fff600   guibg=NONE
 
 " Bash Stuff
 hi shQuote     guifg=#ff027f   guibg=#333100   gui=NONE
@@ -307,3 +307,7 @@ hi markdownCode     guifg=#fff600   guibg=#333100   gui=NONE
 
 " LocalIndentGuide
 hi LocalIndentGuide guifg=#333333   guibg=NONE      gui=inverse
+
+" Vim Highlighting
+hi vimOperParen     guifg=#8200a8   guibg=NONE       gui=NONE
+hi vimSep           guifg=#8200a8   guibg=NONE       gui=NONE
