@@ -79,8 +79,8 @@ hi PmenuSel              guifg=#000000   guibg=#72faff   gui=NONE
 hi PmenuSbar             guifg=NONE      guibg=NONE      gui=NONE
 hi PmenuThumb            guifg=#ff0000
 hi SpecialKey            guifg=#444444   guibg=NONE      gui=NONE
-hi StatusLine            guifg=NONE      guibg=#222222   gui=bold
-hi StatusLineNC          guifg=#444444   guibg=#222222   gui=NONE
+hi StatusLine            guifg=NONE      guibg=#262626   gui=bold
+hi StatusLineNC          guifg=#444444   guibg=#262626   gui=NONE
 hi CursorLine            guifg=NONE      guibg=NONE      gui=NONE
 hi CursorLineNr          guifg=#ff027f   guibg=NONE      gui=BOLD
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
