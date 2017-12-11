@@ -67,7 +67,7 @@ hi Noise                 guifg=#8200a8   guibg=NONE       gui=NONE
 
 " Vim UI Stuff
 hi Cursor                guifg=#000000   guibg=#ff027f   gui=NONE
-hi NonText               guifg=#000000   guibg=NONE      gui=NONE
+hi NonText               guifg=#444444   guibg=NONE      gui=NONE
 hi EndOfBuffer           guifg=#1b1b13
 hi LineNr                guifg=#444444   guibg=#121212   gui=NONE
 hi SignColumn            guifg=#444444   guibg=#121212   gui=NONE
