@@ -2,4 +2,4 @@
 
 A high contrast colorful theme for vim based on Monokai.
 
-![example](https://dl.dropboxusercontent.com/s/lw7mv8wvzi3x4qx/layers.js_2015-01-13_12-30-12.png?dl=0)
+![example](http://wtf.amadeus.wtf/monosnap/Screen_Shot_2018-05-02_at_5.23.27_PM.png)
