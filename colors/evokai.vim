@@ -37,7 +37,6 @@ hi Operator              guifg=#ff027f   guibg=NONE      gui=NONE
 hi Keyword               guifg=#ff027f   guibg=NONE      gui=NONE
 hi Exception             guifg=#e60000   guibg=NONE      gui=NONE
 
-" hi PreProc               guifg=#3cff00   guibg=NONE      gui=NONE
 hi PreProc               guifg=#75715e   guibg=NONE   gui=NONE
 hi Include               guifg=#75715e   guibg=NONE   gui=NONE
 hi Define                guifg=#75715e   guibg=NONE   gui=NONE
@@ -61,7 +60,6 @@ hi Ignore                guifg=NONE      guibg=NONE      gui=NONE
 hi Error                 guifg=#d7d7d7   guibg=#e60000   gui=NONE
 hi Todo                  guifg=#000000   guibg=#75715e   gui=NONE
 
-" hi ColorColumn           guifg=#ff0000   guibg=#121212    gui=NONE
 hi ColorColumn           guifg=#ff0000   guibg=NONE    gui=inverse
 hi Noise                 guifg=#8200a8   guibg=NONE       gui=NONE
 
@@ -96,7 +94,6 @@ hi FoldColumn            guifg=#75715e   guibg=#121212   gui=NONE
 hi ErrorMsg              guifg=#e60000   guibg=NONE      gui=NONE
 hi WarningMsg            guifg=#fff600   guibg=NONE      gui=NONE
 
-" hi TabLine               guifg=#ff0000
 hi TabLineFill           guifg=#121212   guibg=#000000   gui=NONE
 hi TabLine               guifg=#75715e   guibg=#000000   gui=NONE
 hi TabLineSel            guifg=#ffffff   guibg=#000000   gui=BOLD
