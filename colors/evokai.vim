@@ -69,8 +69,8 @@ hi Noise                 guifg=#8200a8   guibg=NONE       gui=NONE
 hi Cursor                guifg=#000000   guibg=#ff027f   gui=NONE
 hi NonText               guifg=#444444   guibg=NONE      gui=NONE
 hi EndOfBuffer           guifg=#1b1b13
-hi LineNr                guifg=#444444   guibg=#121212   gui=NONE
-hi SignColumn            guifg=#444444   guibg=#121212   gui=NONE
+hi LineNr                guifg=#444444   guibg=#1b1b13   gui=NONE
+hi SignColumn            guifg=#444444   guibg=#1b1b13   gui=NONE
 hi Visual                guifg=#1b1b13   guibg=#efefef   gui=NONE
 hi VisualNOS             guifg=#ffffff   guibg=#ff0000   gui=NONE
 hi VertSplit             guifg=#444444   guibg=NONE      gui=NONE
@@ -246,22 +246,22 @@ hi todotxtPriC           guifg=#9d0000   guibg=NONE      gui=NONE
 hi todotxtPriD           guifg=#6f0000   guibg=NONE      gui=NONE
 
 " GitGutter Plugin
-hi GitGutterAdd          guifg=#3cff00   guibg=#121212   gui=NONE
-hi GitGutterChange       guifg=#fff200   guibg=#121212   gui=NONE
-hi GitGutterDelete       guifg=#e60000   guibg=#121212   gui=NONE
-hi GitGutterChangeDelete guifg=#fff600   guibg=#121212   gui=NONE
+hi GitGutterAdd          guifg=#3cff00   guibg=#1b1b13   gui=NONE
+hi GitGutterChange       guifg=#fff200   guibg=#1b1b13   gui=NONE
+hi GitGutterDelete       guifg=#e60000   guibg=#1b1b13   gui=NONE
+hi GitGutterChangeDelete guifg=#fff600   guibg=#1b1b13   gui=NONE
 
 " ALE Signs
-hi ALEErrorSign          guifg=#e60000   guibg=#121212   gui=BOLD
-hi ALEWarningSign        guifg=#fff600   guibg=#121212   gui=BOLD
+hi ALEErrorSign          guifg=#e60000   guibg=#1b1b13   gui=BOLD
+hi ALEWarningSign        guifg=#fff600   guibg=#1b1b13   gui=BOLD
 
-hi SignifySignAdd        guifg=#3cff00   guibg=#121212   gui=NONE
-hi SignifySignChange     guifg=#fff200   guibg=#121212   gui=NONE
-hi SignifySignDelete     guifg=#e60000   guibg=#121212   gui=NONE
+hi SignifySignAdd        guifg=#3cff00   guibg=#1b1b13   gui=NONE
+hi SignifySignChange     guifg=#fff200   guibg=#1b1b13   gui=NONE
+hi SignifySignDelete     guifg=#e60000   guibg=#1b1b13   gui=NONE
 
 " Syntastic Plugin
-hi SyntasticErrorSign    guifg=#e60000   guibg=#121212   gui=bold
-hi SyntasticWarningSign  guifg=#fff600   guibg=#121212   gui=bold
+hi SyntasticErrorSign    guifg=#e60000   guibg=#1b1b13   gui=bold
+hi SyntasticWarningSign  guifg=#fff600   guibg=#1b1b13   gui=bold
 
 " CtrlP Plugin
 hi CtrlPLinePre          guifg=#1e1e1a   guibg=NONE      gui=NONE
