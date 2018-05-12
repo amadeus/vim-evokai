@@ -308,3 +308,11 @@ hi LocalIndentGuide guifg=#333333   guibg=NONE      gui=inverse
 " Vim Highlighting
 hi vimOperParen     guifg=#8200a8   guibg=NONE       gui=NONE
 hi vimSep           guifg=#8200a8   guibg=NONE       gui=NONE
+
+" Terminal Colors
+" Bright Colors
+" Normal Colors
+let g:terminal_ansi_colors = [
+ \ '#797979', '#e32425', '#5fec49', '#fd6131', '#2fdbe2', '#fd3c92', '#2dd9c2', '#eaeaea',
+ \ '#797979', '#e32425', '#5fec49', '#fd6131', '#2fdbe2', '#fd3c92', '#2dd9c2', '#eaeaea'
+ \ ]
