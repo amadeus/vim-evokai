@@ -262,9 +262,8 @@ hi SyntasticWarningSign  guifg=#fff600   guibg=#1b1b13   gui=bold
 
 " CtrlP Plugin
 hi CtrlPPrtBase          guifg=#444444   guibg=NONE      gui=NONE
-" hi CtrlPPrtText          guifg=#1e1e1a   guibg=NONE      gui=NONE
-hi CtrlPLinePre          guifg=#1e1e1a   guibg=NONE      gui=NONE
-hi CtrlPMatch            guifg=#000000   guibg=#ff027f   gui=NONE
+hi CtrlPLinePre          guifg=#444444   guibg=NONE      gui=NONE
+hi CtrlPMatch            guifg=#efefef   guibg=#8d0e4a   gui=NONE
 hi CtrlPNoEntries        guifg=#444444   guibg=NONE
 hi CtrlPMark             guifg=#fff600   guibg=NONE
 
