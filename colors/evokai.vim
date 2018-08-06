@@ -313,7 +313,8 @@ hi vimSep           guifg=#8200a8   guibg=NONE       gui=NONE
 " Terminal Colors
 " Bright Colors
 " Normal Colors
+" Testing out slightly improved colors for FZF
 let g:terminal_ansi_colors = [
- \ '#797979', '#e32425', '#5fec49', '#fd6131', '#2fdbe2', '#fd3c92', '#2dd9c2', '#eaeaea',
+ \ '#333333', '#e32425', '#5fec49', '#fd6131', '#2fdbe2', '#fd3c92', '#2dd9c2', '#eaeaea',
  \ '#797979', '#e32425', '#5fec49', '#fd6131', '#2fdbe2', '#fd3c92', '#2dd9c2', '#eaeaea'
  \ ]
