@@ -159,6 +159,17 @@ hi jsDestructuringBraces guifg=#9c5800   guibg=NONE      gui=NONE
 hi jsDestructuringProperty      guifg=#ff4b00 guibg=NONE gui=italic
 hi jsDestructuringPropertyValue guifg=#ff4b00 guibg=NONE gui=italic
 
+
+" TypeScript Specific Stuff
+hi typescriptClassKeyword       guifg=#ff4b00   guibg=NONE      gui=NONE
+hi typescriptClassName          guifg=#00d5dd   guibg=NONE      gui=BOLD
+hi typescriptMember             guifg=#3cff00   guibg=NONE      gui=NONE
+hi typescriptTypeAnnotation     guifg=#8200a8   guibg=NONE   gui=NONE
+hi typescriptPredefinedType     guifg=#448231   guibg=NONE   gui=NONE
+hi typescriptAssign             guifg=#ff027f   guibg=NONE      gui=NONE
+hi typescriptOperator           guifg=#ff027f   guibg=NONE      gui=NONE
+
+
 " Flow Specific Stuff
 hi jsFlowType            guifg=#448231   guibg=NONE   gui=NONE
 hi jsFlowNoise           guifg=#8200a8   guibg=NONE   gui=NONE
