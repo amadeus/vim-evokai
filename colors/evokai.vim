@@ -226,7 +226,6 @@ hi cssNumberNoise        guifg=#ff027f   guibg=NONE      gui=NONE
 
 hi cssFunction           guifg=#66d9ef   guibg=NONE      gui=NONE
 hi cssFunctionName       guifg=#cefdff   guibg=#000000   gui=NONE
-hi cssFunctionDelimiters guifg=#cefdff   guibg=NONE      gui=NONE
 
 hi cssFunctionComma      guifg=#397d80   guibg=NONE      gui=NONE
 hi cssMediaComma         guifg=#ff4b00   guibg=NONE      gui=NONE
