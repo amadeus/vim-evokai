@@ -301,6 +301,8 @@ hi SpellCap    guisp=#7070F0 gui=undercurl
 hi SpellLocal  guisp=#70F0F0 gui=undercurl
 hi SpellRare   guisp=#FFFFFF gui=undercurl
 
+hi CocUnderline guisp=#FF0000 gui=undercurl
+
 " Overlength?
 hi OverLength  guifg=#ff0000
 
