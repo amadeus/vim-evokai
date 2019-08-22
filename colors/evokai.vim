@@ -77,8 +77,8 @@ hi PmenuSel              guifg=#000000   guibg=#72faff   gui=NONE
 hi PmenuSbar             guifg=NONE      guibg=NONE      gui=NONE
 hi PmenuThumb            guifg=#ff0000
 hi SpecialKey            guifg=#444444   guibg=NONE      gui=NONE
-hi StatusLine            guifg=NONE      guibg=#262626   gui=bold
-hi StatusLineNC          guifg=#444444   guibg=#262626   gui=NONE
+hi StatusLine            guifg=NONE      guibg=#121212   gui=bold
+hi StatusLineNC          guifg=#444444   guibg=#121212   gui=NONE
 hi CursorLine            guifg=NONE      guibg=NONE      gui=NONE cterm=NONE
 hi CursorLineNr          guifg=#ff027f   guibg=NONE      gui=BOLD
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
@@ -302,6 +302,11 @@ hi SpellRare   guisp=#FFFFFF gui=undercurl
 
 hi CocUnderline guisp=#FF0000 gui=undercurl
 hi CocErrorFloat guifg=#75715e
+hi CocWarningFloat guifg=#75715e
+hi CocCodeLens guifg=#75715e
+hi CocFloating guifg=#75715e guibg=#121212
+
+hi graphqlTemplateString guifg=#fff600 guibg=NONE
 
 " Overlength?
 hi OverLength  guifg=#ff0000
