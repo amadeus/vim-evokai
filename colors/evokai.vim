@@ -28,6 +28,7 @@ hi Boolean               guifg=#c500ff   guibg=NONE      gui=NONE
 hi Float                 guifg=#c500ff   guibg=NONE      gui=NONE
 hi Identifier            guifg=#00d5dd   guibg=NONE      gui=NONE
 hi Function              guifg=#00d5dd   guibg=NONE      gui=NONE
+hi WildMenu              guifg=#000000   guibg=#FFFF00   gui=NONE
 
 hi Statement             guifg=#ff027f   guibg=NONE      gui=NONE
 hi Conditional           guifg=#e60000   guibg=NONE      gui=NONE
@@ -43,6 +44,7 @@ hi Define                guifg=#75715e   guibg=NONE   gui=NONE
 hi Macro                 guifg=#75715e   guibg=NONE   gui=NONE
 hi PreCondit             guifg=#75715e   guibg=NONE   gui=NONE
 
+hi MoreMsg               guifg=#3cff00   guibg=NONE      gui=NONE
 hi Type                  guifg=#3cff00   guibg=NONE      gui=NONE
 hi StorageClass          guifg=#ff4b00   guibg=NONE      gui=NONE
 hi Structure             guifg=#3cff00   guibg=NONE      gui=NONE
@@ -77,8 +79,10 @@ hi PmenuSel              guifg=#000000   guibg=#72faff   gui=NONE
 hi PmenuSbar             guifg=NONE      guibg=NONE      gui=NONE
 hi PmenuThumb            guifg=#ff0000
 hi SpecialKey            guifg=#444444   guibg=NONE      gui=NONE
-hi StatusLine            guifg=NONE      guibg=#303030   gui=bold
-hi StatusLineNC          guifg=#444444   guibg=#303030   gui=NONE
+hi StatusLine            guifg=NONE      guibg=#262622   gui=bold
+hi StatusLineNC          guifg=#444444   guibg=#262622   gui=NONE
+hi StatusLineTerm        guifg=NONE      guibg=#262622   gui=NONE
+hi StatusLineTermNC      guifg=#444444   guibg=#262622   gui=NONE
 hi CursorLine            guifg=NONE      guibg=NONE      gui=NONE cterm=NONE
 hi CursorLineNr          guifg=#ff027f   guibg=NONE      gui=BOLD
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
