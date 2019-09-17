@@ -332,6 +332,9 @@ hi LocalIndentGuide guifg=#333333   guibg=NONE      gui=inverse
 hi vimOperParen     guifg=#8200a8   guibg=NONE       gui=NONE
 hi vimSep           guifg=#8200a8   guibg=NONE       gui=NONE
 
+" Lightline Groups
+hi lightlineModInactive  guifg=#fff600   guibg=#262622   gui=BOLD
+
 " Terminal Colors
 " Bright Colors
 " Normal Colors
