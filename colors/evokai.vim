@@ -165,13 +165,46 @@ hi jsDestructuringPropertyValue guifg=#ff4b00 guibg=NONE gui=italic
 
 
 " TypeScript Specific Stuff
-hi typescriptClassKeyword       guifg=#ff4b00   guibg=NONE      gui=NONE
-hi typescriptClassName          guifg=#00d5dd   guibg=NONE      gui=BOLD
-hi typescriptMember             guifg=#3cff00   guibg=NONE      gui=NONE
-hi typescriptTypeAnnotation     guifg=#8200a8   guibg=NONE   gui=NONE
-hi typescriptPredefinedType     guifg=#448231   guibg=NONE   gui=NONE
-hi typescriptAssign             guifg=#ff027f   guibg=NONE      gui=NONE
-hi typescriptOperator           guifg=#ff027f   guibg=NONE      gui=NONE
+hi tsFuncCall            guifg=#cefdff
+hi tsTaggedTemplate      guifg=#ff027f   guibg=NONE
+hi tsUndefined           guifg=#c500ff   guibg=NONE      gui=NONE
+hi tsNull                guifg=#c500ff   guibg=NONE      gui=NONE
+hi tsFunction            guifg=#00d5dd   guibg=NONE      gui=NONE
+hi tsClassMethodType     guifg=#00d5dd   guibg=NONE      gui=italic
+hi tsArrowFunction       guifg=#00d5dd   guibg=NONE      gui=NONE
+hi tsFuncName            guifg=#00d5dd   guibg=NONE      gui=BOLD
+hi tsObjectFuncName      guifg=#00d5dd   guibg=NONE      gui=BOLD
+hi tsFuncParens          guifg=#00d5dd   guibg=NONE      gui=BOLD
+hi tsFuncBraces          guifg=#00d5dd   guibg=NONE      gui=NONE
+hi tsClassBraces         guifg=#00d5dd   guibg=NONE      gui=NONE
+hi tsFuncArgCommas       guifg=#397d80   guibg=NONE      gui=NONE
+hi tsFuncArgs            guifg=#ff4b00   guibg=NONE      gui=italic
+hi tsGlobalObjects       guifg=#00d5dd   guibg=NONE      gui=NONE
+hi tsOpAssign            guifg=#ff027f   guibg=NONE      gui=NONE
+hi tsSpecial             guifg=#ff4b00   guibg=#330f00   gui=NONE
+hi tsParens              guifg=#ff027f   guibg=NONE      gui=NONE
+hi tsStyledTemplateTicks guifg=#ff027f   guibg=NONE      gui=NONE
+hi tsBraces              guifg=#00d5dd   guibg=NONE      gui=NONE
+hi tsBrackets            guifg=#8200a8   guibg=NONE      gui=NONE
+hi tsObjectKey           guifg=#3cff00   guibg=NONE      gui=NONE
+hi tsFunctionKey         guifg=#3cff00   guibg=NONE      gui=NONE
+hi tsFunctionVar         guifg=#00d5dd   guibg=NONE      gui=NONE
+hi tsBooleanTrue         guifg=#3cff00   guibg=#155800   gui=NONE
+hi tsBooleanFalse        guifg=#ff221e   guibg=#761210   gui=NONE
+hi tsClassKeyword        guifg=#ff4b00   guibg=NONE      gui=NONE
+hi tsExtendsKeyword      guifg=#ff4b00   guibg=NONE      gui=NONE
+hi xmlEqual              guifg=#8200a8   guibg=NONE      gui=NONE
+hi tsTemplateBraces      guifg=#ff4a00   guibg=#330f00   gui=NONE
+hi tsGenerator           guifg=#8200a8   guibg=NONE      gui=NONE
+hi tsClassDefinition     guifg=#00d5dd   guibg=NONE      gui=BOLD
+hi tsDestructuringBlock  guifg=#ff4b00   guibg=NONE      gui=italic
+hi tsDestructuringBraces guifg=#9c5800   guibg=NONE      gui=NONE
+hi tsFlowType            guifg=#448231   guibg=NONE   gui=NONE
+hi tsFlowNoise           guifg=#8200a8   guibg=NONE   gui=NONE
+hi tsFlowStorageClass    guifg=#ff4b00   guibg=NONE   gui=NONE
+hi tsFlowDeclareKeyword  guifg=#3cff00   guibg=NONE   gui=NONE
+hi tsDestructuringProperty      guifg=#ff4b00 guibg=NONE gui=italic
+hi tsDestructuringPropertyValue guifg=#ff4b00 guibg=NONE gui=italic
 
 
 " Flow Specific Stuff
