@@ -84,7 +84,7 @@ hi StatusLineNC          guifg=#444444   guibg=#262622   gui=NONE
 hi StatusLineTerm        guifg=NONE      guibg=#262622   gui=NONE
 hi StatusLineTermNC      guifg=#444444   guibg=#262622   gui=NONE
 hi CursorLine            guifg=NONE      guibg=NONE      gui=NONE cterm=NONE
-hi CursorLineNr          guifg=#ff027f   guibg=NONE      gui=BOLD
+hi CursorLineNr          guifg=#ff027f   guibg=NONE      gui=BOLD cterm=NONE
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
 hi MatchParen            guifg=#000000   guibg=#8200a8   gui=NONE
 hi Search                guifg=#FC167C   guibg=#481a28   gui=NONE
