@@ -205,6 +205,8 @@ hi tsFlowStorageClass    guifg=#ff4b00   guibg=NONE   gui=NONE
 hi tsFlowDeclareKeyword  guifg=#3cff00   guibg=NONE   gui=NONE
 hi tsDestructuringProperty      guifg=#ff4b00 guibg=NONE gui=italic
 hi tsDestructuringPropertyValue guifg=#ff4b00 guibg=NONE gui=italic
+hi tsFlowExport                 guifg=#c500ff   guibg=NONE   gui=NONE
+hi tsImport                     guifg=#c500ff   guibg=NONE   gui=NONE
 
 
 " Flow Specific Stuff
