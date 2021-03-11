@@ -199,14 +199,16 @@ hi tsGenerator           guifg=#8200a8   guibg=NONE      gui=NONE
 hi tsClassDefinition     guifg=#00d5dd   guibg=NONE      gui=BOLD
 hi tsDestructuringBlock  guifg=#ff4b00   guibg=NONE      gui=italic
 hi tsDestructuringBraces guifg=#9c5800   guibg=NONE      gui=NONE
-hi tsFlowType            guifg=#448231   guibg=NONE   gui=NONE
-hi tsFlowNoise           guifg=#8200a8   guibg=NONE   gui=NONE
-hi tsFlowStorageClass    guifg=#ff4b00   guibg=NONE   gui=NONE
-hi tsFlowDeclareKeyword  guifg=#3cff00   guibg=NONE   gui=NONE
-hi tsDestructuringProperty      guifg=#ff4b00 guibg=NONE gui=italic
-hi tsDestructuringPropertyValue guifg=#ff4b00 guibg=NONE gui=italic
-hi tsFlowExport                 guifg=#c500ff   guibg=NONE   gui=NONE
-hi tsImport                     guifg=#c500ff   guibg=NONE   gui=NONE
+hi tsFlowType            guifg=#448231   guibg=NONE       gui=NONE
+hi tsFlowNoise           guifg=#8200a8   guibg=NONE       gui=NONE
+hi tsFlowStorageClass    guifg=#ff4b00   guibg=NONE       gui=NONE
+hi tsFlowDeclareKeyword  guifg=#3cff00   guibg=NONE       gui=NONE
+hi tsDestructuringProperty      guifg=#ff4b00   guibg=NONE  gui=italic
+hi tsDestructuringPropertyValue guifg=#ff4b00   guibg=NONE  gui=italic
+hi tsFlowExport                 guifg=#c500ff   guibg=NONE  gui=NONE
+hi tsImport                     guifg=#c500ff   guibg=NONE  gui=NONE
+hi tsStyledLabelValue           guifg=#ff4b00   guibg=NONE
+hi tsStyledDefinition           guifg=#ff027f   guibg=#8200a8
 
 
 " Flow Specific Stuff
@@ -375,6 +377,21 @@ hi lightlineModInactive  guifg=#fff600   guibg=#262622   gui=BOLD
 " Normal Colors
 " Testing out slightly improved colors for FZF
 let g:terminal_ansi_colors = [
- \ '#333333', '#e32425', '#5fec49', '#fd6131', '#2fdbe2', '#fd3c92', '#2dd9c2', '#eaeaea',
- \ '#797979', '#e32425', '#5fec49', '#fd6131', '#2fdbe2', '#fd3c92', '#2dd9c2', '#eaeaea'
+ \ '#333333',
+ \ '#e32425',
+ \ '#5fec49',
+ \ '#fd6131',
+ \ '#2fdbe2',
+ \ '#fd3c92',
+ \ '#2dd9c2',
+ \ '#eaeaea',
+ \
+ \ '#797979',
+ \ '#e32425',
+ \ '#5fec49',
+ \ '#fd6131',
+ \ '#2fdbe2',
+ \ '#fd3c92',
+ \ '#2dd9c2',
+ \ '#eaeaea'
  \ ]
