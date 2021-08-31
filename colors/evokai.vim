@@ -199,23 +199,23 @@ hi tsGenerator           guifg=#8200a8   guibg=NONE      gui=NONE
 hi tsClassDefinition     guifg=#00d5dd   guibg=NONE      gui=BOLD
 hi tsDestructuringBlock  guifg=#ff4b00   guibg=NONE      gui=italic
 hi tsDestructuringBraces guifg=#9c5800   guibg=NONE      gui=NONE
-hi tsFlowType            guifg=#448231   guibg=NONE       gui=NONE
-hi tsFlowNoise           guifg=#8200a8   guibg=NONE       gui=NONE
-hi tsFlowStorageClass    guifg=#ff4b00   guibg=NONE       gui=NONE
-hi tsFlowDeclareKeyword  guifg=#3cff00   guibg=NONE       gui=NONE
+hi tsTSCType            guifg=#448231   guibg=NONE       gui=NONE
+hi tsTSCNoise           guifg=#8200a8   guibg=NONE       gui=NONE
+hi tsTSCStorageClass    guifg=#ff4b00   guibg=NONE       gui=NONE
+hi tsTSCDeclareKeyword  guifg=#3cff00   guibg=NONE       gui=NONE
 hi tsDestructuringProperty      guifg=#ff4b00   guibg=NONE  gui=italic
 hi tsDestructuringPropertyValue guifg=#ff4b00   guibg=NONE  gui=italic
-hi tsFlowExport                 guifg=#c500ff   guibg=NONE  gui=NONE
+hi tsTSCExport                 guifg=#c500ff   guibg=NONE  gui=NONE
 hi tsImport                     guifg=#c500ff   guibg=NONE  gui=NONE
 hi tsStyledLabelValue           guifg=#ff4b00   guibg=NONE
 hi tsStyledDefinition           guifg=#ff027f   guibg=#8200a8
 
 
-" Flow Specific Stuff
-hi jsFlowType            guifg=#448231   guibg=NONE   gui=NONE
-hi jsFlowNoise           guifg=#8200a8   guibg=NONE   gui=NONE
-hi jsFlowStorageClass    guifg=#ff4b00   guibg=NONE   gui=NONE
-hi jsFlowDeclareKeyword  guifg=#3cff00   guibg=NONE   gui=NONE
+" TSC Specific Stuff
+hi jsTSCType            guifg=#448231   guibg=NONE   gui=NONE
+hi jsTSCNoise           guifg=#8200a8   guibg=NONE   gui=NONE
+hi jsTSCStorageClass    guifg=#ff4b00   guibg=NONE   gui=NONE
+hi jsTSCDeclareKeyword  guifg=#3cff00   guibg=NONE   gui=NONE
 
 
 " JSON Specific
