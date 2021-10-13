@@ -205,10 +205,12 @@ hi tsTSCStorageClass    guifg=#ff4b00   guibg=NONE       gui=NONE
 hi tsTSCDeclareKeyword  guifg=#3cff00   guibg=NONE       gui=NONE
 hi tsDestructuringProperty      guifg=#ff4b00   guibg=NONE  gui=italic
 hi tsDestructuringPropertyValue guifg=#ff4b00   guibg=NONE  gui=italic
-hi tsTSCExport                 guifg=#c500ff   guibg=NONE  gui=NONE
+hi tsTSCExport                  guifg=#c500ff   guibg=NONE  gui=NONE
 hi tsImport                     guifg=#c500ff   guibg=NONE  gui=NONE
 hi tsStyledLabelValue           guifg=#ff4b00   guibg=NONE
 hi tsStyledDefinition           guifg=#ff027f   guibg=#8200a8
+hi tsTSCReadOnly                guifg=#75715e   guibg=NONE  gui=italic
+hi tsTSCReadOnlyReturn          guifg=#75715e   guibg=NONE  gui=italic
 
 
 " TSC Specific Stuff
