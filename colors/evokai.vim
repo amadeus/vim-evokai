@@ -305,6 +305,12 @@ hi GitGutterChangeDelete guifg=#fff600   guibg=#1b1b13   gui=NONE
 hi ALEErrorSign          guifg=#e60000   guibg=#1b1b13   gui=BOLD
 hi ALEWarningSign        guifg=#fff600   guibg=#1b1b13   gui=BOLD
 
+hi ALEVirtualTextError         guifg=#e60000     guibg=#000000   gui=NONE
+hi ALEVirtualTextWarning       guifg=#fff200     guibg=#000000   gui=NONE
+hi ALEVirtualTextInfo          guifg=#75715e     guibg=#000000   gui=NONE
+hi ALEVirtualTextStyleError    guifg=#e60000     guibg=#000000   gui=NONE
+hi ALEVirtualTextStyleWarning  guifg=#fff200     guibg=#000000   gui=NONE
+
 hi SignifySignAdd        guifg=#3cff00   guibg=#1b1b13   gui=NONE
 hi SignifySignChange     guifg=#fff200   guibg=#1b1b13   gui=NONE
 hi SignifySignDelete     guifg=#e60000   guibg=#1b1b13   gui=NONE
