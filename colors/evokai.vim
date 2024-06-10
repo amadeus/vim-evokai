@@ -383,6 +383,187 @@ hi fzfRegion guifg=#75715e guibg=#13130d
 " Lightline Groups
 hi lightlineModInactive  guifg=#fff600   guibg=#262622   gui=BOLD
 
+if has('nvim')
+  " ======== Neovim Treesitter Highlights ========
+  " For C++/Dart attributes, annotations that can be attached to the code to
+  " denote some kind of meta information.
+  hi TSAnnotation guifg=#ff0000 guibg=NONE
+
+  " (unstable) TODO: docs
+  hi TSAttribute guifg=#ff0000 guibg=NONE
+
+  " For booleans.
+  hi TSBoolean guifg=#c500ff guibg=NONE gui=NONE
+
+  " For characters.
+  hi TSCharacter guifg=#ff0000 guibg=NONE
+
+  " For comment blocks.
+  hi TSComment guifg=#75715e guibg=NONE gui=NONE
+
+  " For keywords related to conditionnals.
+  hi TSConditional guifg=#8200a8 guibg=NONE gui=NONE
+
+  " For constants
+  hi TSConstant guifg=#99f6fa guibg=NONE gui=NONE
+
+  " For constant that are built in the language: `nil` in Lua.
+  hi TSConstBuiltin guifg=#c500ff guibg=NONE gui=NONE
+
+  " For constants that are defined by macros: `NULL` in C.
+  hi TSConstMacro guifg=#c500ff guibg=NONE gui=NONE
+
+  " For constructor calls and definitions: `{}` in Lua, and Java constructors.
+  hi TSConstructor guifg=#00d5dd guibg=NONE gui=NONE
+
+  " For syntax/parser errors.
+  hi TSError guifg=#ffffff guibg=#ff0000
+
+  " For exception related keywords.
+  hi TSException guifg=#e60000 guibg=NONE gui=NONE
+
+  " For fields.
+  hi TSField guifg=#3cff00 guibg=NONE gui=NONE
+  hi TSProperty guifg=#3cff00 guibg=NONE gui=NONE
+
+  " For all numbers
+  hi TSNumber guifg=#c500ff guibg=NONE gui=NONE
+  hi TSFloat guifg=#c500ff guibg=NONE gui=NONE
+
+  " For function (calls and definitions).
+  hi TSFunction guifg=#cefdff gui=BOLD
+
+  " For builtin functions: `table.insert` in Lua.
+  hi TSFuncBuiltin guifg=#00d5dd guibg=NONE gui=NONE
+
+  " For macro defined fuctions (calls and definitions): each `macro_rules` in Rust.
+  hi TSFuncMacro guifg=#ff0000 guibg=NONE
+
+  " For includes: `#include` in C, `use` or `extern crate` in Rust, or `require`
+  " in Lua.
+  hi TSInclude guifg=#c500ff guibg=NONE gui=NONE
+
+  " For keywords that don't fall in previous categories.
+  hi TSKeyword guifg=#ff4b00 guibg=NONE gui=NONE
+
+  " For keywords used to define a fuction.
+  hi TSKeywordFunction guifg=#00d5dd guibg=NONE gui=NONE
+
+  " for operators that are English words, e.g. `and`, `as`, `or`.
+  hi TSKeywordOperator guifg=#ff027f guibg=NONE gui=NONE
+
+  " for the `return` and `yield` keywords.
+  hi TSKeywordReturn guifg=#ff027f guibg=NONE gui=NONE
+
+  " For labels: `label:` in C and `:label:` in Lua.
+  hi TSLabel guifg=#ff0000 guibg=NONE
+
+  " For method calls and definitions.
+  hi TSMethod guifg=#00d5dd guibg=NONE gui=BOLD
+
+  " For identifiers referring to modules and namespaces.
+  hi TSNamespace guifg=#ff0000 guibg=NONE
+
+  " For no highlighting.
+  hi TSNone guifg=#efefef guibg=#1b1b13 gui=NONE
+
+  " For any operator: `+`, but also `->` and `*` in C.
+  hi TSOperator guifg=#ff027f guibg=NONE gui=NONE
+
+  " For parameters of a function.
+  hi TSParameter guifg=#ff4b00 guibg=NONE gui=italic
+
+  " For references to parameters of a function.
+  hi TSParameterReference guifg=#ff4b00 guibg=NONE gui=italic
+
+  " For delimiters ie: `.`
+  hi TSPunctDelimiter guifg=#8200a8 guibg=NONE gui=NONE
+
+  " For brackets and parens.
+  hi TSPunctBracket guifg=#8200a8 guibg=NONE gui=NONE
+
+  " For special punctutation that does not fall in the catagories before.
+  hi TSPunctSpecial guifg=#ff027f
+
+  " For keywords related to loops.
+  hi TSRepeat guifg=#e60000 guibg=NONE gui=NONE
+
+  " For strings.
+  hi TSString guifg=#fff600 guibg=#333100 gui=NONE
+
+  " For regexes.
+  hi TSStringRegex guifg=#fff600 guibg=#333100 gui=NONE
+
+  " For escape characters within a string.
+  hi TSStringEscape guifg=#ff4b00 guibg=#330f00 gui=NONE
+
+  " For identifiers referring to symbols or atoms.
+  hi TSSymbol guifg=#00ff00 guibg=NONE
+
+  " Tags like html tag names.
+  hi TSTag guifg=#36a6ff guibg=#003e65 gui=NONE
+
+  " Tag delimiter like `<` `>` `/`
+  hi TSTagDelimiter guifg=#ff027f guibg=NONE gui=NONE
+
+  " For strings considered text in a markup language.
+  hi TSText guifg=#00ff00 guibg=NONE
+
+  " For text to be represented in bold.
+  hi TSStrong gui=BOLD
+
+  " For text to be represented with emphasis.
+  hi TSEmphasis gui=ITALIC
+
+  " For text to be represented with an underline.
+  hi TSUnderline gui=UNDERLINE
+
+  " For strikethrough text.
+  hi TSStrike gui=STRIKETHROUGH
+
+  " Text that is part of a title.
+  hi TSTitle gui=BOLD
+
+  " Literal text.
+  hi TSLiteral guifg=#00ffff guibg=NONE
+
+  " Any URI like a link or email.
+  hi TSURI guifg=#fff600 guibg=#333100 gui=NONE
+
+  " For LaTex-like math environments.
+  hi TSMath guifg=#ff0000 guibg=NONE
+
+  " For footnotes, text references, citations.
+  hi TSTextReference guifg=#ff0000 guibg=NONE
+
+  " For text environments of markup languages.
+  hi TSEnvironment guifg=#ff0000 guibg=NONE
+
+  " For the name/the string indicating the type of text environment.
+  hi TSEnvironmentName guifg=#ff0000 guibg=NONE
+
+  " Text representation of an informational note.
+  hi TSNote guifg=#ff0000 guibg=NONE
+
+  " Text representation of a warning note.
+  hi TSWarning guifg=#ff0000 guibg=NONE
+
+  " Text representation of a danger note.
+  hi TSDanger guifg=#d7d7d7 guibg=#e60000 gui=NONE
+
+  " For types.
+  hi TSType guifg=#75715e guibg=NONE gui=NONE
+
+  " For builtin types.
+  hi TSTypeBuiltin guifg=#448231 guibg=NONE gui=NONE
+
+  " Any variable name that does not have another highlight.
+  hi TSVariable guifg=#efefef
+
+  " Variable names that are defined by the languages, like `this` or `self`.
+  hi TSVariableBuiltin guifg=#ff4b00 guibg=NONE gui=NONE
+endif
+
 " Terminal Colors
 " Bright Colors
 " Normal Colors
