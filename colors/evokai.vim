@@ -74,6 +74,7 @@ hi SignColumn            guifg=#444444   guibg=#1b1b13   gui=NONE
 hi Visual                guifg=#1b1b13   guibg=#efefef   gui=NONE
 hi VisualNOS             guifg=#ffffff   guibg=#ff0000   gui=NONE
 hi VertSplit             guifg=#444444   guibg=NONE      gui=NONE
+hi WinSeparator          guifg=#444444   guibg=NONE      gui=NONE
 hi Pmenu                 guifg=#999999   guibg=#121212   gui=NONE
 hi PmenuSel              guifg=#000000   guibg=#72faff   gui=NONE
 hi PmenuSbar             guifg=NONE      guibg=NONE      gui=NONE
