@@ -402,51 +402,100 @@ if has('nvim')
   hi @function.tsx guifg=#00d5dd   guibg=NONE      gui=BOLD
   hi @keyword.import.tsx guifg=#c500ff   guibg=NONE  gui=NONE
   hi @lsp.typemod.enum.declaration.typescriptreact                guifg=#efefef   guibg=NONE   gui=NONE
-  hi @variable.member.tsx guifg=#3cff00   guibg=NONE      gui=NONE
 
   hi! @function.paren.open guifg=#00d5dd   guibg=NONE      gui=BOLD
   hi! @function.paren.close guifg=#00d5dd   guibg=NONE      gui=BOLD
-  hi! link @type.builtin.typescript Comment
-  hi! link @type.builtin.tsx        Comment
+  "hi! link @type.builtin.typescript Comment
+  "hi! link @type.builtin.tsx        Comment
+  "
+  "hi! link @keyword.function.typescript tsFunction
+  "hi! link @keyword.function.tsx        tsFunction
+  "
+  "hi! link @variable.parameter.typescript jsFuncArgs
+  "hi! link @variable.parameter.tsx        jsFuncArgs
+  "
+  "hi! link @function.typescript jsFuncName
+  "hi! link @function.tsx        jsFuncName
+  "
+  "hi! link @keyword.typescript StorageClass
+  "hi! link @keyword.tsx        StorageClass
+  "
+  "hi! link @keyword.import.typescript tsTSCExport
+  "hi! link @keyword.import.tsx        tsTSCExport
+  "
+  "hi! link @arrow.function.typescript tsArrowFunction
+  "hi! link @arrow.function.tsx        tsArrowFunction
 
-  hi! link @keyword.function.typescript tsFunction
-  hi! link @keyword.function.tsx        tsFunction
+  hi! link @type Normal
+  hi! link @type Normal
+  hi! link @type.constructor Normal
 
-  hi! link @variable.parameter.typescript jsFuncArgs
-  hi! link @variable.parameter.tsx        jsFuncArgs
-
-  hi! link @function.typescript jsFuncName
-  hi! link @function.tsx        jsFuncName
-
-  hi! link @keyword.typescript StorageClass
-  hi! link @keyword.tsx        StorageClass
-
-  hi! link @keyword.import.typescript tsTSCExport
-  hi! link @keyword.import.tsx        tsTSCExport
-
-  hi! link @arrow.function.typescript tsArrowFunction
-  hi! link @arrow.function.tsx        tsArrowFunction
-
-  hi! link @type.typescript Comment
-  hi! link @type.tsx        Comment
+  hi! link @function.call jsFuncCall
+  hi! link @function.call.paren.open Operator
+  hi! link @function.call.paren.close Operator
+  hi! link @function.arrow jsArrowFunction
+  hi! link @class.name jsFuncName
 
     " Link all type annotation highlight groups to Comment
   hi! link @type.annotation Comment
-  hi! link @type.annotation.predefined Comment
-  hi! link @type.annotation.colon Comment
-  hi! link @type.annotation.union Comment
-  hi! link @type.annotation.union.member Comment
-  hi! link @type.annotation.union.member.predefined Comment
-  hi! link @type.annotation.intersection Comment
-  hi! link @type.annotation.array Comment
-  hi! link @type.annotation.tuple Comment
-  hi! link @type.annotation.object Comment
-  hi! link @type.annotation.generic Comment
-  hi! link @type.annotation.generic.argument Comment
-  hi! link @type.annotation.predicate Comment
-  hi! link @type.annotation.literal Comment
-  hi! link @type.annotation.parenthesized Comment
-  hi! link @type.annotation.high_priority Comment
+  hi! link @type.annotation.interface Comment
+  hi! link @type.annotation.colon Noise
+  hi! link @type.annotation.bracket.open Noise
+  hi! link @type.annotation.bracket.close Noise
+  hi! link @type.annotation.bar Noise
+
+  hi! link @type.annotation.parens.open Noise
+  hi! link @type.annotation.parens.close Noise
+
+  hi! link @type.annotation.arguments.open Noise
+  hi! link @type.annotation.arguments.close Noise
+  hi! link @type.annotation.arguments.comma Noise
+
+  hi! link @type.annotation.predefined_type tsTSCType
+  hi! link @type.annotation.identifier tsTSCType
+
+  hi! link @type.annotation.interface.open Noise
+  hi! link @type.annotation.interface.close Noise
+  hi! link @type.annotation.interface.semicolon Noise
+  hi! link @type.annotation.interface.optional Noise
+
+  hi! link @variable.object.member jsObjectKey
+
+  hi! link @destruct.bracket.open tsDestructuringBraces
+  hi! link @destruct.bracket.close tsDestructuringBraces
+  hi! link @variable.parameter jsFuncArgs
+  hi! link @destruct.body jsFuncArgs
+
+  hi! link @jsx.expression.bracket.open tsBraces
+  hi! link @jsx.expression.bracket.close tsBraces
+  hi! link @jsx.expression.equals Noise
+  hi! link @constant.builtin.undefined jsUndefined
+  hi! link @constant.builtin.null jsUndefined
+  hi! link @keyword.conditional Conditional
+  hi! link @keyword.repeat Conditional
+
+  "hi! link @op
+  "hi! link  tsDestructuringBlock
+  "hi! link @type.annotation.union Noise
+  "hi! link @type.annotation.colon Noise
+  "hi! link @type.annotation.predefined Comment
+  "hi! link @type.annotation.colon Noise
+  "hi! link @type.annotation.union Noise
+  "hi! link @type.annotation.union.member Comment
+  "hi! link @type.annotation.union.member.predefined Comment
+  "hi! link @type.annotation.intersection Comment
+  ""hi! link @type.annotation.array Comment
+  "hi! link @type.annotation.tuple Comment
+  "hi! link @type.annotation.object Comment
+  ""hi! link @type.annotation.array Noise
+  ""hi! link @type.annotation.array Comment
+  "hi! link @type.annotation.generic Comment
+  "hi! link @type.annotation.generic.argument Comment
+  "hi! link @type.annotation.predicate Comment
+  "hi! link @type.annotation.literal Comment
+  "hi! link @type.annotation.parenthesized Comment
+  "hi! link @type.annotation.high_priority Comment
+  "
 
   " Also link the function parameter captures to Comment if you want
   hi! link @function.parameter Comment
@@ -460,7 +509,7 @@ if has('nvim')
   hi! link @arrow.function.type Comment
   hi! link @arrow.function.high_priority Comment
   hi! link @keyword.type.typescript Comment
-  hi! link @keyword.type.tsx Comment
+  hi! link @keyword.type Comment
 
 
   hi! link @boolean.true.typescript tsBooleanTrue
