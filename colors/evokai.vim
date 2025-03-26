@@ -62,6 +62,11 @@ hi Ignore                guifg=NONE      guibg=NONE      gui=NONE
 hi Error                 guifg=#d7d7d7   guibg=#e60000   gui=NONE
 hi Todo                  guifg=#000000   guibg=#75715e   gui=NONE
 
+hi DiagnosticError            guifg=#e60000   guibg=NONE      gui=NONE
+hi DiagnosticVirtualTextError guifg=#e60000   guibg=#000000   gui=NONE
+hi DiagnosticWarn             guifg=#fff600   guibg=NONE      gui=NONE
+hi DiagnosticVirtualTextWarn  guifg=#fff600   guibg=#000000   gui=NONE
+
 hi ColorColumn           guifg=#ff0000   guibg=NONE    gui=inverse
 hi Noise                 guifg=#8200a8   guibg=NONE       gui=NONE
 
