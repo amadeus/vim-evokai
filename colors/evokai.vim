@@ -505,7 +505,7 @@ if has('nvim')
   hi! link @function.parameter.high_priority Comment
 
   " And the arrow function captures
-  hi! link @arrow.function Comment
+  "hi! link @arrow.function Comment
   hi! link @arrow.function.type Comment
   hi! link @arrow.function.high_priority Comment
   hi! link @keyword.type.typescript Comment

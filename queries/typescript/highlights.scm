@@ -119,13 +119,6 @@
   "]" @destruct.bracket.close
   (#set! "priority" 120))
 
-(jsx_expression
-  "{" @jsx.expression.bracket.open
-  "}" @jsx.expression.bracket.close)
-
-(jsx_attribute
-  "=" @jsx.expression.equals)
-
 ((undefined) @constant.builtin.undefined)
 
 ((null) @constant.builtin.null)
