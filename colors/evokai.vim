@@ -94,8 +94,9 @@ hi CursorLineNr          guifg=#ff027f   guibg=NONE      gui=BOLD cterm=NONE
 hi CursorColumn          guifg=NONE      guibg=#000000   gui=NONE
 hi MatchParen            guifg=#000000   guibg=#8200a8   gui=NONE
 hi Search                guifg=#FC167C   guibg=#481a28   gui=NONE
-hi QuickFixLine                guifg=#FC167C   guibg=#481a28   gui=NONE
+hi QuickFixLine          guifg=#FC167C   guibg=#481a28   gui=NONE
 hi IncSearch             guifg=#FC167C   guibg=#481a28   gui=INVERSE
+hi CurSearch             guifg=#FC167C   guibg=#481a28   gui=INVERSE
 
 hi Directory             guifg=#36a6ff   guibg=NONE      gui=NONE
 hi Folded                guifg=#75715e   guibg=#121212   gui=NONE
