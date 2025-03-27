@@ -63,9 +63,9 @@ hi Error                 guifg=#d7d7d7   guibg=#e60000   gui=NONE
 hi Todo                  guifg=#000000   guibg=#75715e   gui=NONE
 
 hi DiagnosticError            guifg=#e60000   guibg=NONE      gui=NONE
-hi DiagnosticVirtualTextError guifg=#e60000   guibg=#000000   gui=NONE
+hi DiagnosticVirtualTextError guifg=#e60000   guibg=#2b1912   gui=NONE
 hi DiagnosticWarn             guifg=#fff600   guibg=NONE      gui=NONE
-hi DiagnosticVirtualTextWarn  guifg=#fff600   guibg=#000000   gui=NONE
+hi DiagnosticVirtualTextWarn  guifg=#fff600   guibg=NONE   gui=NONE
 
 hi ColorColumn           guifg=#ff0000   guibg=NONE    gui=inverse
 hi Noise                 guifg=#8200a8   guibg=NONE       gui=NONE
@@ -524,6 +524,34 @@ if has('nvim')
   hi! link @class.bracket.open.high_priority.tsx tsClassBraces
   hi! link @class.bracket.close.high_priority.typescript tsClassBraces
   hi! link @class.bracket.close.high_priority.tsx tsClassBraces
+
+  hi BlinkCmpMenu            guifg=#efefef   guibg=#1b1b13   gui=NONE
+  hi BlinkCmpDoc             guifg=#efefef   guibg=#1b1b13   gui=NONE
+  hi BlinkCmpMenu            guifg=#75715e   guibg=#1b1b13   gui=NONE
+  hi BlinkCmpMenuBorder      guifg=#2a2a20   guibg=#1b1b13   gui=NONE
+  hi BlinkCmpDocBorder       guifg=#2a2a20   guibg=#1b1b13   gui=NONE
+  hi BlinkCmpDocSeparator    guifg=#2a2a20   guibg=#1b1b13   gui=NONE
+  hi BlinkCmpKindIcon        guifg=#fd3c92   guibg=NONE
+  hi BlinkCmpScrollBarThumb  guifg=NONE      guibg=#27271d
+  hi BlinkCmpKind            guifg=#fd3c92   guibg=NONE
+  hi PmenuKind               guifg=#fd3c92   guibg=NONE
+  hi BlinkCmpMenuSelection   guifg=NONE      guibg=#3d2026
+  hi BlinkCmpLabel           guifg=#efefef   guibg=NONE
+  hi BlinkCmpSource          guifg=#484639   guibg=NONE
+  hi BlinkCmpLabelMatch      guifg=#fd3c92   guibg=#221c17
+
+  "Not sure what these are for yet
+  "hi BlinkCmpSignatureHelp guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpKind guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpKindText guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpLabelDeprecated guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpLabelDetail guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpLabelDescription guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpKindIcon guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpGhostText guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpDocCursorLine guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpSignatureHelpBorder guifg=#ff0000 guibg=NONE
+  "hi BlinkCmpSignatureHelpActiveParameter guifg=#ff0000 guibg=NONE
 endif
 
 " Terminal Colors
