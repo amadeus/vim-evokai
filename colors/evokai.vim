@@ -16,6 +16,7 @@ let g:colors_name = 'evokai'
 " ================================= "
 
 hi Normal                guifg=#efefef   guibg=#1b1b13   gui=NONE
+hi NormalFloat           guifg=#efefef   guibg=#1b1b13   gui=NONE
 hi Title                 guifg=#ffffff   guibg=NONE      gui=NONE
 
 hi Comment               guifg=#75715e   guibg=NONE      gui=NONE
@@ -391,41 +392,41 @@ hi fzfRegion guifg=#75715e guibg=#13130d
 hi lightlineModInactive  guifg=#fff600   guibg=#262622   gui=BOLD
 
 if has('nvim')
-  hi @tag.delimiter.tsx guifg=#ff027f   guibg=NONE      gui=NONE
-  hi @tag.attribute.tsx guifg=#3cff00   guibg=NONE      gui=NONE
-  hi @operator.tsx              guifg=#ff027f   guibg=NONE      gui=NONE
-  hi @tag.builtin.tsx                   guifg=#36a6ff   guibg=#003e65   gui=NONE
-  hi @puncuation.bracket.tsx                 guifg=#8200a8   guibg=NONE       gui=NONE
-  hi @type.tsx                guifg=#efefef   guibg=NONE   gui=NONE
-  hi @keyword.tsx               guifg=#ff4b00   guibg=NONE      gui=NONE
-  hi @keyword.type.tsx               guifg=#ff4b00   guibg=NONE      gui=NONE
-  hi @keyword.function.tsx guifg=#00d5dd   guibg=NONE      gui=NONE
-  hi @function.tsx guifg=#00d5dd   guibg=NONE      gui=BOLD
-  hi @keyword.import.tsx guifg=#c500ff   guibg=NONE  gui=NONE
+  hi @tag.delimiter guifg=#ff027f   guibg=NONE      gui=NONE
+  hi @tag.attribute guifg=#3cff00   guibg=NONE      gui=NONE
+  hi @operator              guifg=#ff027f   guibg=NONE      gui=NONE
+  hi @tag.builtin                   guifg=#36a6ff   guibg=#003e65   gui=NONE
+  hi @puncuation.bracket                 guifg=#8200a8   guibg=NONE       gui=NONE
+  hi @type                guifg=#efefef   guibg=NONE   gui=NONE
+  hi @keyword               guifg=#ff4b00   guibg=NONE      gui=NONE
+  hi @keyword.type               guifg=#ff4b00   guibg=NONE      gui=NONE
+  hi @keyword.function guifg=#00d5dd   guibg=NONE      gui=NONE
+  hi @function guifg=#00d5dd   guibg=NONE      gui=BOLD
+  hi @keyword.import guifg=#c500ff   guibg=NONE  gui=NONE
   hi @lsp.typemod.enum.declaration.typescriptreact                guifg=#efefef   guibg=NONE   gui=NONE
 
   hi! @function.paren.open guifg=#00d5dd   guibg=NONE      gui=BOLD
   hi! @function.paren.close guifg=#00d5dd   guibg=NONE      gui=BOLD
   "hi! link @type.builtin.typescript Comment
-  "hi! link @type.builtin.tsx        Comment
+  "hi! link @type.builtin        Comment
   "
   "hi! link @keyword.function.typescript tsFunction
-  "hi! link @keyword.function.tsx        tsFunction
+  "hi! link @keyword.function        tsFunction
   "
   "hi! link @variable.parameter.typescript jsFuncArgs
-  "hi! link @variable.parameter.tsx        jsFuncArgs
+  "hi! link @variable.parameter        jsFuncArgs
   "
   "hi! link @function.typescript jsFuncName
-  "hi! link @function.tsx        jsFuncName
+  "hi! link @function        jsFuncName
   "
   "hi! link @keyword.typescript StorageClass
-  "hi! link @keyword.tsx        StorageClass
+  "hi! link @keyword        StorageClass
   "
   "hi! link @keyword.import.typescript tsTSCExport
-  "hi! link @keyword.import.tsx        tsTSCExport
+  "hi! link @keyword.import        tsTSCExport
   "
   "hi! link @arrow.function.typescript tsArrowFunction
-  "hi! link @arrow.function.tsx        tsArrowFunction
+  "hi! link @arrow.function        tsArrowFunction
 
   hi! link @type Normal
   hi! link @type Normal
@@ -514,22 +515,23 @@ if has('nvim')
 
 
   hi! link @boolean.true.typescript tsBooleanTrue
-  hi! link @boolean.true.tsx tsBooleanTrue
+  hi! link @boolean.true tsBooleanTrue
   hi! link @boolean.false.typescript tsBooleanFalse
-  hi! link @boolean.false.tsx tsBooleanFalse
+  hi! link @boolean.false tsBooleanFalse
   hi! link @keyword.class.high_priority.typescript jsClassKeyword
-  hi! link @keyword.class.high_priority.tsx jsClassKeyword
+  hi! link @keyword.class.high_priority jsClassKeyword
   hi! link @class.name.high_priority.typescript jsClassDefinition
-  hi! link @class.name.high_priority.tsx jsClassDefinition
+  hi! link @class.name.high_priority jsClassDefinition
   hi! link @class.bracket.open.high_priority.typescript tsClassBraces
-  hi! link @class.bracket.open.high_priority.tsx tsClassBraces
+  hi! link @class.bracket.open.high_priority tsClassBraces
   hi! link @class.bracket.close.high_priority.typescript tsClassBraces
-  hi! link @class.bracket.close.high_priority.tsx tsClassBraces
+  hi! link @class.bracket.close.high_priority tsClassBraces
 
   hi BlinkCmpMenu            guifg=#efefef   guibg=#1b1b13   gui=NONE
   hi BlinkCmpDoc             guifg=#efefef   guibg=#1b1b13   gui=NONE
   hi BlinkCmpMenu            guifg=#75715e   guibg=#1b1b13   gui=NONE
   hi BlinkCmpMenuBorder      guifg=#2a2a20   guibg=#1b1b13   gui=NONE
+  hi FloatBorder      guifg=#2a2a20   guibg=#1b1b13   gui=NONE
   hi BlinkCmpDocBorder       guifg=#2a2a20   guibg=#1b1b13   gui=NONE
   hi BlinkCmpDocSeparator    guifg=#2a2a20   guibg=#1b1b13   gui=NONE
   hi BlinkCmpKindIcon        guifg=#fd3c92   guibg=NONE
